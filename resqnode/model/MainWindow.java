@@ -1,17 +1,17 @@
 package resqnode.ui;
 
-import java.awt.BorderLayout;
+import java.awt.BorderLayout;   //abstract window Toolkit
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.BorderFactory;
+import javax.swing.BorderFactory;    //Java swing
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-import resqnode.data.GraphLoader;
+import resqnode.data.GraphLoader;     //import from source files
 import resqnode.engine.FloodPropagator;
 import resqnode.engine.ZoneClassifier;
 import resqnode.model.CityGraph;
