@@ -1,12 +1,11 @@
 package resqnode.model;
-
+//Represents one location in the graph
 public class CityNode {
     public int id;
     public String name;
     public int x;
     public int y;
     public NodeState state;
-
     public CityNode(int id, String name, int x, int y, NodeState state) {
         this.id = id;
         this.name = name;
